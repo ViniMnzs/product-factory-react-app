@@ -1,7 +1,7 @@
 import React from 'react';
 
 import {
-  Container, Subcontainer, Button, Label, Logo, Register,
+  Container, Button, Label, Logo, Register,
 } from './styles';
 
 export default function Header() {
@@ -46,11 +46,9 @@ export default function Header() {
           </Button>
         ))
       }
-      <Subcontainer>
-        <Register>
-          <Label>Register</Label>
-        </Register>
-      </Subcontainer>
+      <Register>
+        <Label>Register</Label>
+      </Register>
     </Container>
   );
 }
